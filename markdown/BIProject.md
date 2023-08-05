@@ -1,15 +1,12 @@
 Business Intelligence Project
 ================
 Allan Omondi
-2023-08-21
+2023-11-23
 
 - [Setup Chunk](#setup-chunk)
 - [Understanding the Dataset (Exploratory Data Analysis
   (EDA))](#understanding-the-dataset-exploratory-data-analysis-eda)
   - [Loading the Dataset](#loading-the-dataset)
-  - [Boilerplate below:](#boilerplate-below)
-  - [R Markdown](#r-markdown)
-  - [Including Plots](#including-plots)
 
 ## Setup Chunk
 
@@ -92,37 +89,4 @@ summary(SU_AdvancedDB_BBIT_2022_Grades)
     ##  Max.   :35.81    Max.   :54.00   Max.   :83.74   NA's:17  
     ##  NA's   :1        NA's   :17      NA's   :17
 
-Exam marks (out of 60)
-
-## Boilerplate below:
-
-## R Markdown
-
-This is an R Markdown document. Markdown is a simple formatting syntax
-for authoring HTML, PDF, and MS Word documents. For more details on
-using R Markdown see <http://rmarkdown.rstudio.com>.
-
-When you click the **Knit** button a document will be generated that
-includes both content as well as the output of any embedded R code
-chunks within the document. You can embed an R code chunk like this:
-
-``` r
-summary(cars)
-```
-
-    ##      speed           dist       
-    ##  Min.   : 4.0   Min.   :  2.00  
-    ##  1st Qu.:12.0   1st Qu.: 26.00  
-    ##  Median :15.0   Median : 36.00  
-    ##  Mean   :15.4   Mean   : 42.98  
-    ##  3rd Qu.:19.0   3rd Qu.: 56.00  
-    ##  Max.   :25.0   Max.   :120.00
-
-## Including Plots
-
-You can also embed plots, for example:
-
-![](BIProject_files/figure-gfm/pressure-1.png)<!-- -->
-
-Note that the `echo = FALSE` parameter was added to the code chunk to
-prevent printing of the R code that generated the plot.
+…to be continued
