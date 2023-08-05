@@ -270,3 +270,7 @@ churn_dateset <- read_csv(
 ## Iranian churn dataset (Version 1). (2020). [Dataset]. University of California, Irvine (UCI) Machine Learning Repository. https://doi.org/10.24432/C5JW3Z ----
 
 ## Yeh, I.-C. (2016). Default of credit card clients (Version 1) [Dataset]. University of California, Irvine (UCI) Machine Learning Repository. https://doi.org/10.24432/C55S3H ----
+
+# Required Lab Work Submission ----
+# Part A: Update the "markdown/BIProject.md" file with a code chunk to explain how the dataset has been loaded.
+# Part B: Upload the link to the markdown hosted on Github (do not upload the file itself) through the submission link provided on eLearning.
