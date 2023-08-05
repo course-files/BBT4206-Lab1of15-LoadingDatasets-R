@@ -8,8 +8,9 @@
 # Lecturer: Allan Omondi
 # Contact: aomondi@strathmore.edu
 #
-# Additional Notes: This is part of a lecture with explanation of the code and
-#                   required lab work submission.
+# Note: The lecture contains both theory and practice. This file forms part of the
+#       practice. It has required lab work submissions that are graded for
+#       coursework marks.
 # 
 # License: GNU GPL-3.0-or-later
 # See LICENSE file for licensing information.
