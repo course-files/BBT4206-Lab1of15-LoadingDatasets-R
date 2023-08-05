@@ -1,0 +1,165 @@
+# *********************************************************************************
+# Recipe 0: Business-Related Datasets ====
+#
+# Course Code: BBT4205
+# Course Name: Business Intelligence 2
+# Strathmore University
+# Date: March 2023
+#
+# Lecturer: Dr Allan Omondi <aomondi@strathmore.edu>
+# *********************************************************************************
+
+
+# 1. List of Business-Related Datasets =====
+# There are several repositories where you can find datasets (mostly free) for learning and/or to use as part of a project. These include:
+# 1.	University of California (UC) Irvine: https://archive.ics.uci.edu/ml/datasets.php or https://archive-beta.ics.uci.edu/ 
+# 2.	Kaggle: https://www.kaggle.com/datasets
+# 3.	Kenya Open Data: https://kenya.opendataforafrica.org/data/#menu=topic 
+# 4.	openAFRICA: https://africaopendata.org/ 
+# 5.	Datahub.io: https://datahub.io/collections 
+# 6.	Data.world: https://data.world/ 
+# 7.	Google Data Search: https://datasetsearch.research.google.com/ 
+# 8.	Google Public Data Explorer: https://www.google.com/publicdata/directory 
+# 9.	Data.gov: https://www.data.gov/ 
+# 10.	Global Health Observatory Data Repository: https://apps.who.int/gho/data/node.home # 11.	UNICEF Data: https://data.unicef.org/ 
+# 12.	Earth Data: https://earthdata.nasa.gov/
+# 13.	CERN Open Data Portal: http://opendata.cern.ch/ 
+# 14.	FBI Crime Data Portal: https://crime-data-explorer.fr.cloud.gov/ 
+# 15.	New York City Taxi Trip Data: https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+# 16.	Our World in Data: https://ourworldindata.org/ 
+# 17.	World Bank Open Data: https://data.worldbank.org/ 
+# 18.	World Poverty: https://worldpoverty.io/map
+# 19.	Worldometers: https://www.worldometers.info/
+# 20.	European Data: https://data.europa.eu/en
+# 21.	Livestock Data for Decisions (LD4D): https://www.livestockdata.org/type/datasets 
+# 22.	Data Science Dojo: https://datasciencedojo.com/blog/datasets-data-science-skills/ or https://code.datasciencedojo.com/datasciencedojo/datasets 
+# etc.
+
+# Main source
+## UC (Irvine): https://archive.ics.uci.edu/ml/datasets.php?format=&task=&att=&area=bus&numAtt=&numIns=&type=&sort=dateDown&view=table ====
+## Data Science Dojo: https://datasciencedojo.com/blog/datasets-data-science-skills/ ====
+
+# 2. Classification Datasets =====
+## 2.1 DATASET 1: Dow Jones Index Data Set ====
+#### Objective: Predict which stock will provide greatest rate of return ====
+#### Source 1: https://archive.ics.uci.edu/ml/datasets/Dow+Jones+Index ====
+#### Source 2:  https://code.datasciencedojo.com/datasciencedojo/datasets/tree/master/Dow%20Jones%20Index ====
+#### Source 3: https://www.kaggle.com/datasets/mnassrib/dow-jones-industrial-average ====
+
+# Transform the data as follows:
+# Transform the Data using an Excel Spreadsheet
+# Microsoft Excel also offers data transformation features. Navigate to the following menu in a Microsoft Excel Spreadsheet:
+#   Data > Get Data > From File > From Text/CSV
+
+# Import the “dow_jones_index.data” file and select “Transform Data”.
+
+# Select the following columns: “open”, “high”, “low”, “close”, “next_weeks_open”, and “next_weeks_close”.
+
+# Remove the dollar sign by selecting “Replace Values” and enter “$” in the “Value To Find” text field and leave the “Replace With” text field empty.
+
+# The presence of the dollar sign can make a tool like R assume that the variable stores a text field, yet it is supposed to store an integer. There is no other transformation that needs to be done.
+
+
+#### Code ====
+library(readr)
+stock_ROR_dataset <- read_csv(
+  "data/transforms/dow_jones_index.csv",
+  col_types = cols(
+    stock = col_factor(
+      levels = c(
+        "AA",
+        "AXP",
+        "BA",
+        "BAC",
+        "CAT",
+        "CSCO",
+        "CVX",
+        "DD",
+        "DIS",
+        "GE",
+        "HD",
+        "HPQ",
+        "IBM",
+        "INTC",
+        "JNJ",
+        "JPM",
+        "KRFT",
+        "KO",
+        "MCD",
+        "MMM",
+        "MRK",
+        "MSFT",
+        "PFE",
+        "PG",
+        "T",
+        "TRV",
+        "UTX",
+        "VZ",
+        "WMT",
+        "XOM"
+      )
+    ),
+    date = col_date(format = "%m/%d/%Y")
+  )
+)
+
+## 2.2 DATASET 2: Default of credit card clients Data Set ====
+#### Objective: Estimate the probability of default ====
+#### Source 1: https://code.datasciencedojo.com/datasciencedojo/datasets/tree/master/Default%20of%20Credit%20Card%20Clients ====
+#### Source 2:  https://archive.ics.uci.edu/ml/datasets/default+of+credit+card+clients ====
+#### Code ====
+library(readr)
+defaulter_dataset <-
+  readr::read_csv(
+    "data/default of credit card clients.csv",
+    col_types = cols(
+      SEX = col_factor(levels = c("1", "2")),
+      EDUCATION = col_factor(levels = c("0", "1", "2", "3", "4", "5", "6")),
+      MARRIAGE = col_factor(levels = c("0", "1", "2", "3")),
+      `default payment next month` = col_factor(levels = c("1", "0")),
+      `default payment next month` = col_factor(levels = c("1", "0"))
+    ),
+    skip = 1
+  )
+
+# 3 Regression Datasets ====
+## 3.1 DATASET 3: Daily Demand Forecasting Orders Data Set ====
+#### Source 1: https://archive.ics.uci.edu/ml/datasets/Daily+Demand+Forecasting+Orders ====
+#### Source 2: https://code.datasciencedojo.com/datasciencedojo/datasets/tree/master/Daily%20Demand%20Forecasting%20Orders ====
+#### Code ====
+library(readr)
+demand_forecasting_dataset <-
+  readr::read_delim(
+    "data/Daily_Demand_Forecasting_Orders.csv",
+    delim = ";",
+    escape_double = FALSE,
+    col_types = cols(
+      `Week of the month (first week, second, third, fourth or fifth week` = col_factor(levels = c("1", "2", "3", "4", "5")),
+      `Day of the week (Monday to Friday)` = col_factor(levels = c("2",
+                                                                   "3", "4", "5", "6"))
+    ),
+    trim_ws = TRUE
+  )
+
+
+## 3.2 DATASET 4: Iranian Churn Dataset ====
+### Note: Skip the last 7 rows ====
+### Source 1: https://archive-beta.ics.uci.edu/dataset/592/iranian+churn+dataset ====
+### Citation: Iranian Churn Dataset. (2020). UCI Machine Learning Repository. ====
+### Code ====
+library(readr)
+churn_dateset <- read_csv(
+  "data/Churn_Dateset.csv",
+  col_types = cols(
+    Complains = col_factor(levels = c("0",
+                                      "1")),
+    `Age Group` = col_factor(levels = c("1",
+                                        "2", "3", "4", "5")),
+    `Tariff Plan` = col_factor(levels = c("1",
+                                          "2")),
+    Status = col_factor(levels = c("1",
+                                   "2")),
+    Churn = col_factor(levels = c("0",
+                                  "1"))
+  )
+)
