@@ -1,27 +1,28 @@
 {
     "id": "90BC1207",
-    "path": "C:/Users/aomondi/Google Drive (aomondi@strathmore.edu)/1. Teaching/Class Administration/2. BBT4205 - Business Intelligence II/0. BI2 Lab Setup/R/BI Labs Combined/Lab0-BusinessRelatedDatasets.R",
-    "project_path": null,
+    "path": "C:/Users/aomondi/Documents/GitHub/BBT4206-R/Lab1-LoadingDatasets.R",
+    "project_path": "Lab1-LoadingDatasets.R",
     "type": "r_source",
-    "hash": "0",
+    "hash": "1250441503",
     "contents": "",
     "dirty": false,
     "created": 1691222962891.0,
     "source_on_save": false,
-    "relative_order": 1,
+    "relative_order": 2,
     "properties": {
         "source_window_id": "",
         "Source": "Source",
-        "cursorPosition": "6,18",
-        "scrollLine": "0",
-        "docOutlineVisible": "1"
+        "cursorPosition": "253,0",
+        "scrollLine": "236",
+        "docOutlineVisible": "1",
+        "docOutlineSize": "175"
     },
     "folds": "",
-    "lastKnownWriteTime": 1684128571,
+    "lastKnownWriteTime": 1691235727,
     "encoding": "UTF-8",
     "collab_server": "",
     "source_window": "",
-    "last_content_update": 1684128571,
+    "last_content_update": 1691235727238,
     "read_only": false,
     "read_only_alternatives": []
 }
