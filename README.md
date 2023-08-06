@@ -2,15 +2,13 @@
 
 These are course files (instructional materials) for the **BBT4206: Business Intelligence II** course using **R**.
 
-|                       |                                            |
-|-----------------------|--------------------------------------------|
-| **Course Code**       | BBT4206                                    |
-| **Course Name**       | Business Intelligence II                   |
-| **Semester Duration** | 21^st^ August 2023 to 28^th^ November 2023 |
-| **Lecturer**          | Allan Omondi                               |
-| **Contact**           | aomondi\@strathmore.edu                    |
-
-: Course Details
+| **Attribute**         | Detail                                                       |
+|-------------------------|-----------------------------------------------|
+| **Course Code**       | BBT4206                                                      |
+| **Course Name**       | Business Intelligence II                                     |
+| **Semester Duration** | 21<sup>st</sup> August 2023 to 28<sup>th</sup> November 2023 |
+| **Lecturer**          | Allan Omondi                                                 |
+| **Contact**           | aomondi [at] strathmore.edu                                  |
 
 It is based on the following 9 steps of **Knowledge Discovery in Databases (KDD)**:
 
