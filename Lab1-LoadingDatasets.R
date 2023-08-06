@@ -1,46 +1,52 @@
-# *********************************************************************************
+# *****************************************************************************
 # Lab 1: Loading Datasets ----
-# 
+#
 # Course Code: BBT4206
 # Course Name: Business Intelligence II
 # Semester Duration: 21st August 2023 to 28th November 2023
-# 
+#
 # Lecturer: Allan Omondi
 # Contact: aomondi [at] strathmore.edu
-# 
-# Note: The lecture contains both theory and practice. This file forms part of the
-#       practice. It has required lab work submissions that are graded for
+#
+# Note: The lecture contains both theory and practice. This file forms part of
+#       the practice. It has required lab work submissions that are graded for
 #       coursework marks.
-# 
+#
 # License: GNU GPL-3.0-or-later
 # See LICENSE file for licensing information.
-# *********************************************************************************
+# *****************************************************************************
 
 # 1. Sources of Datasets -----
-# There are several repositories where you can find datasets (mostly free) for learning and/or to use as part of a project. These include:
+# There are several repositories where you can find datasets (mostly free) for
+# learning and/or to use as part of a project. These include:
 
 # 1.	University of California (UC) Irvine: https://archive.ics.uci.edu/datasets
 # 2.	Kaggle: https://www.kaggle.com/datasets
-# 3.	Data Science Dojo: https://datasciencedojo.com/blog/datasets-data-science-skills/ or https://code.datasciencedojo.com/datasciencedojo/datasets
+# 3.	Data Science Dojo:
+#       https://datasciencedojo.com/blog/datasets-data-science-skills/ or
+#       https://code.datasciencedojo.com/datasciencedojo/datasets
 # 4.	Kenya Open Data: https://kenya.opendataforafrica.org/data/#menu=topic
-#   5.	openAFRICA: https://africaopendata.org/
-#   6.	Datahub.io: https://datahub.io/collections
+# 5.	openAFRICA: https://africaopendata.org/
+# 6.	Datahub.io: https://datahub.io/collections
 # 7.	Data.world: https://data.world/
-#   8.	Google Data Search: https://datasetsearch.research.google.com/
-#   9.	Google Public Data Explorer: https://www.google.com/publicdata/directory
+# 8.	Google Data Search: https://datasetsearch.research.google.com/
+# 9.	Google Public Data Explorer: https://www.google.com/publicdata/directory
 # 10.	Data.gov: https://www.data.gov/
-#   11.	Global Health Observatory Data Repository: https://apps.who.int/gho/data/node.home
+# 11.	Global Health Observatory Data Repository:
+#       https://apps.who.int/gho/data/node.home
 # 12.	UNICEF Data: https://data.unicef.org/
-#   13.	Earth Data: https://earthdata.nasa.gov/
-#   14.	CERN Open Data Portal: http://opendata.cern.ch/
-#   15.	FBI Crime Data Portal: https://crime-data-explorer.fr.cloud.gov/
-#   16.	New York City Taxi Trip Data: https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
+# 13.	Earth Data: https://earthdata.nasa.gov/
+# 14.	CERN Open Data Portal: http://opendata.cern.ch/
+# 15.	FBI Crime Data Portal: https://crime-data-explorer.fr.cloud.gov/
+# 16.	New York City Taxi Trip Data:
+#       https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
 # 17.	Our World in Data: https://ourworldindata.org/
-#   18.	World Bank Open Data: https://data.worldbank.org/
-#   19.	World Poverty: https://worldpoverty.io/map
+# 18.	World Bank Open Data: https://data.worldbank.org/
+# 19.	World Poverty: https://worldpoverty.io/map
 # 20.	Worldometers: https://www.worldometers.info/
-#   21.	European Data: https://data.europa.eu/en
-# 22.	Livestock Data for Decisions (LD4D): https://www.livestockdata.org/type/datasets
+# 21.	European Data: https://data.europa.eu/en
+# 22.	Livestock Data for Decisions (LD4D):
+#       https://www.livestockdata.org/type/datasets
 # etc.
 
 
