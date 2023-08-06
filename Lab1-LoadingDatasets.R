@@ -1,13 +1,13 @@
 # *********************************************************************************
 # Lab 1: Loading Datasets ----
-#
+# 
 # Course Code: BBT4206
 # Course Name: Business Intelligence II
 # Semester Duration: 21st August 2023 to 28th November 2023
 # 
 # Lecturer: Allan Omondi
 # Contact: aomondi [at] strathmore.edu
-#
+# 
 # Note: The lecture contains both theory and practice. This file forms part of the
 #       practice. It has required lab work submissions that are graded for
 #       coursework marks.
@@ -272,5 +272,5 @@ churn_dateset <- read_csv(
 ## Yeh, I.-C. (2016). Default of credit card clients (Version 1) [Dataset]. University of California, Irvine (UCI) Machine Learning Repository. https://doi.org/10.24432/C55S3H ----
 
 # Required Lab Work Submission ----
-# Part A: Update the "markdown/BIProject.md" file with a code chunk to explain how the dataset has been loaded.
+# Part A: Create a markdown file and place it inside the folder called "markdown". The markdown should have a code chunk to explain how the dataset has been loaded.
 # Part B: Upload the link to the markdown hosted on Github (do not upload the file itself) through the submission link provided on eLearning.
