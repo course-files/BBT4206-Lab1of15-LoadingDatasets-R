@@ -68,14 +68,6 @@ It is based on the following 9 steps of **Knowledge Discovery in Databases (KDD)
 
 -   *Lab11-FinalizingtheModel.R*
 
--   *Lab12-Plumber-API.R*
-
--   *Lab13-Run-Plumber-API.R*
-
--   *Lab13-Consume-Plumber-API-Output.R*
-
--   *Lab14-Consume-Plumber-API-Output.php*
-
 ## Step 8: Interpretation and Evaluation
 
 The knowledge represented in the form of patterns and rules is then **validated by domain experts** based on the problem defined in [Step 1: Problem Definition and Goal Setting] and the goal of the KDD process. The domain expert, in this case, **DOES NOT** refer to the IT practitioner who trained the model. The domain experts can include medical doctors, psychologists, economists, meteorologists, political scientists, pharmacists, etc. depending on the area under study. If the knowledge discovered is not valid, then the KDD process is repeated from [Step 2: Data Selection] by reconsidering the attributes/features.
