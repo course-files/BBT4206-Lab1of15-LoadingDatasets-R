@@ -12,13 +12,13 @@ These are course files (instructional materials) for the **BBT4206: Business Int
 
 It is based on the following 9 steps of **Knowledge Discovery in Databases (KDD)**:
 
-## Step 1: Problem Definition and Goal Setting
+## Step 1: Problem Definition and Goal Setting {#step-1-problem-definition-and-goal-setting}
 
 **Problem Definition and Goal Setting:** This involves an understanding of the problem, the requirements of the end-user for the solution to the problem, and the environment in which the KDD process will occur.
 
--   *BI Project: Section 1-4 and Section 14*
+-   [*BI Project: Section 1, 3, and 14*](https://docs.google.com/document/d/1Ay1VaAjd9JzQJ5JnkPHZLvtDRNAWrc5RYCPo1bvxgBU/edit?usp=sharing)
 
-## Step 2: Data Selection
+## Step 2: Data Selection {#step-2-data-selection}
 
 **Data Selection:** This involves discovering what data is accessible, selecting the significant data that is accessible, and then integrating all this data into one set (a dataset). It is extremely important to ensure that the data is collected ethically (informed consent), and that the data is not biased (the sample should represent the population). The entire KDD process may be unsuccessful if there are significant attributes/features missing in the dataset. This can be performed by the data engineer.
 
@@ -44,7 +44,7 @@ It is based on the following 9 steps of **Knowledge Discovery in Databases (KDD)
 
 **Selection of the Data Mining Task:** This involves deciding whether to use data mining to either predict classifications, regressions, associations, or clusters. The decision is based on the goal of the KDD process. Step 5-7 can be performed by a Machine Learning engineer and/or a data analyst.
 
--   *BI Project Section 2*
+-   [*BI Project Section 3*](https://docs.google.com/document/d/1Ay1VaAjd9JzQJ5JnkPHZLvtDRNAWrc5RYCPo1bvxgBU/edit?usp=sharing)
 
 ## Step 6: Selection of the Data Mining Algorithm
 
@@ -76,7 +76,7 @@ The knowledge represented in the form of patterns and rules is then **validated 
 
 This involves operationalizing the knowledge discovered by integrating it into an Information System (e.g., a data visualization dashboard). This step is exposed to the challenge of losing the "laboratory environment" in which the model was trained. This laboratory environment handled pre-processed, static data whereas the actual environment is based on dynamic data that can contain outliers and noise. Despite this significant challenge, the accomplishment of this step determines the effectiveness of the entire KDD process.
 
--   *BI Project Section 15 and Section 16*
+-   [*BI Project Section 15 and Section 16*](https://docs.google.com/document/d/1Ay1VaAjd9JzQJ5JnkPHZLvtDRNAWrc5RYCPo1bvxgBU/edit?usp=sharing)
 
 -   *Lab12-Plumber-API.R*
 
