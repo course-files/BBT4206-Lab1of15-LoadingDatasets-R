@@ -28,24 +28,25 @@ The dataset that was used is available here:
 ``` r
 library(readr)
 
-SU_AdvancedDB_BBIT_2022_Grades <- read_csv("../data/SU_AdvancedDB_BBIT_2022_Grades.csv", 
+su_advanceddb_bbit_2022_grades <- read_csv(
+  "../data/SU_AdvancedDB_BBIT_2022_Grades.csv",
     col_types = cols(
-        Proj_Sec0 = col_number(), 
-        Proj_Sec1 = col_number(), Proj_Sec2 = col_number(), 
-        Proj_Sec3 = col_number(), Proj_Sec4 = col_number(), 
-        Proj_Sec5 = col_number(), Proj_Sec6 = col_number(), 
-        Proj_Sec7 = col_number(), Proj_Sec8 = col_number(), 
-        Essay = col_number(), Quizzes = col_number(), 
-        Labs = col_number(), CAT = col_number(), 
-        Mid_Term_Evaluation = col_number(), 
-        End_Term_Evaluation = col_number(), 
-        Absenteeism_Percentage = col_number(), 
-        CourseWork_Total = col_number(), 
+        Proj_Sec0 = col_number(),
+        Proj_Sec1 = col_number(), Proj_Sec2 = col_number(),
+        Proj_Sec3 = col_number(), Proj_Sec4 = col_number(),
+        Proj_Sec5 = col_number(), Proj_Sec6 = col_number(),
+        Proj_Sec7 = col_number(), Proj_Sec8 = col_number(),
+        Essay = col_number(), Quizzes = col_number(),
+        Labs = col_number(), CAT = col_number(),
+        Mid_Term_Evaluation = col_number(),
+        End_Term_Evaluation = col_number(),
+        Absenteeism_Percentage = col_number(),
+        CourseWork_Total = col_number(),
         Exam = col_number(),
         Final = col_number(),
         Grade = col_factor(levels = c("A", "B", "C", "D", "E"))))
 
-summary(SU_AdvancedDB_BBIT_2022_Grades)
+summary(su_advanceddb_bbit_2022_grades)
 ```
 
     ##    Proj_Sec0        Proj_Sec1        Proj_Sec2        Proj_Sec3    

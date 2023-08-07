@@ -356,9 +356,20 @@ churn_dateset <- read_csv(
 
 # Required Lab Work Submission ----
 ## Part A ----
-# Create a markdown file and place it inside the folder called "markdown". The
-# markdown should have a code chunk to explain how the dataset has been loaded.
+# Specify the code you have used to load your own dataset for the BI Project
+# here:
 
 ## Part B ----
-# Upload the link to the markdown hosted on Github (do not upload the file
-# itself) through the submission link provided on eLearning.
+# Upload *the link* to your "Lab1-LoadingDatasets.R" hosted on Github (do not
+# upload the .R file itself) through the submission link provided on
+# eLearning.
+
+## Part C ----
+# Create a markdown file called "BIProject.Rmd" and place it inside the folder
+# called "markdown". The markdown should have a code chunk to explain how the
+# dataset has been loaded.
+
+## Part D ----
+# Upload *the link* to "BIProject.md" markdown file hosted on Github (do not
+# upload the .Rmd or .md markdown files) through the submission link provided
+# on eLearning.
