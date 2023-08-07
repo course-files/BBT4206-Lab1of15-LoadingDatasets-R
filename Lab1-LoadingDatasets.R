@@ -131,6 +131,10 @@
 
 # There is no other transformation that needs to be done.
 
+# Select "Close & Load" and save the file (the first work sheet) as a .CSV file
+# in the following location: "data/transforms/dow_jones_index.csv"
+
+
 ### Code ----
 library(readr)
 stock_ror_dataset <- read_csv(
@@ -216,6 +220,8 @@ stock_ror_dataset <- read_csv(
 # X18-X23: Amount of previous payment (NT dollar). X18 = amount paid in
 #   September, 2005; X19 = amount paid in August, 2005; . . .;X23 = amount paid
 #   in April, 2005.
+
+# Convert the XLS file into a CSV file
 
 ### Sources ----
 #### [Primary] Source 1:  UCI ----
@@ -315,12 +321,13 @@ demand_forecasting_dataset <-
 # Customer Value: The calculated value of customer
 
 ### Note: Skip the last 7 rows ----
+
 ### [Primary] Source 1: UCI ----
-# https://archive-beta.ics.uci.edu/dataset/592/iranian+churn+dataset
+# https://archive.ics.uci.edu/dataset/563/iranian+churn+dataset
 ### Code ----
 library(readr)
 churn_dateset <- read_csv(
-  "data/Churn_Dateset.csv",
+  "data/Customer Churn.csv",
   col_types = cols(
     Complains = col_factor(levels = c("0",
                                       "1")),
@@ -348,10 +355,10 @@ churn_dateset <- read_csv(
 ## Yeh, I.-C. (2016). Default of credit card clients (Version 1) [Dataset]. University of California, Irvine (UCI) Machine Learning Repository. https://doi.org/10.24432/C55S3H # nolint ----
 
 # Required Lab Work Submission ----
-## Part A: ----
+## Part A ----
 # Create a markdown file and place it inside the folder called "markdown". The
 # markdown should have a code chunk to explain how the dataset has been loaded.
 
-## Part B: ----
+## Part B ----
 # Upload the link to the markdown hosted on Github (do not upload the file
 # itself) through the submission link provided on eLearning.
