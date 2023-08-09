@@ -20,32 +20,32 @@
 # There are several repositories where you can find datasets (mostly free) for
 # learning and/or to use as part of a project. These include:
 
-# 1.	University of California (UC) Irvine: https://archive.ics.uci.edu/datasets
-# 2.	Kaggle: https://www.kaggle.com/datasets
-# 3.	Data Science Dojo:
-#       https://datasciencedojo.com/blog/datasets-data-science-skills/ or
-#       https://code.datasciencedojo.com/datasciencedojo/datasets
-# 4.	Kenya Open Data: https://kenya.opendataforafrica.org/data/#menu=topic
-# 5.	openAFRICA: https://africaopendata.org/
-# 6.	Datahub.io: https://datahub.io/collections
-# 7.	Data.world: https://data.world/
-# 8.	Google Data Search: https://datasetsearch.research.google.com/
-# 9.	Google Public Data Explorer: https://www.google.com/publicdata/directory
-# 10.	Data.gov: https://www.data.gov/
-# 11.	Global Health Observatory Data Repository:
+# 1.	Data in Brief Journal: https://www.sciencedirect.com/journal/data-in-brief
+# 2.	University of California (UC) Irvine: https://archive.ics.uci.edu/datasets
+# 3.	Kaggle: https://www.kaggle.com/datasets
+# 4.	Data Science Dojo:
+#       https://datasciencedojo.com/blog/datasets-data-science-skills/ or https://code.datasciencedojo.com/datasciencedojo/datasets
+# 5.	Kenya Open Data: https://kenya.opendataforafrica.org/data/#menu=topic
+# 6.	openAFRICA: https://africaopendata.org/
+# 7.	Datahub.io: https://datahub.io/collections
+# 8.	Data.world: https://data.world/
+# 9.	Google Data Search: https://datasetsearch.research.google.com/
+# 10.	Google Public Data Explorer: https://www.google.com/publicdata/directory
+# 11.	Data.gov: https://www.data.gov/
+# 12.	Global Health Observatory Data Repository:
 #       https://apps.who.int/gho/data/node.home
-# 12.	UNICEF Data: https://data.unicef.org/
-# 13.	Earth Data: https://earthdata.nasa.gov/
-# 14.	CERN Open Data Portal: http://opendata.cern.ch/
-# 15.	FBI Crime Data Portal: https://crime-data-explorer.fr.cloud.gov/
-# 16.	New York City Taxi Trip Data:
+# 13.	UNICEF Data: https://data.unicef.org/
+# 14.	Earth Data: https://earthdata.nasa.gov/
+# 15.	CERN Open Data Portal: http://opendata.cern.ch/
+# 16.	FBI Crime Data Portal: https://crime-data-explorer.fr.cloud.gov/
+# 17.	New York City Taxi Trip Data:
 #       https://www1.nyc.gov/site/tlc/about/tlc-trip-record-data.page
-# 17.	Our World in Data: https://ourworldindata.org/
-# 18.	World Bank Open Data: https://data.worldbank.org/
-# 19.	World Poverty: https://worldpoverty.io/map
-# 20.	Worldometers: https://www.worldometers.info/
-# 21.	European Data: https://data.europa.eu/en
-# 22.	Livestock Data for Decisions (LD4D):
+# 18.	Our World in Data: https://ourworldindata.org/
+# 19.	World Bank Open Data: https://data.worldbank.org/
+# 20.	World Poverty: https://worldpoverty.io/map
+# 21.	Worldometers: https://www.worldometers.info/
+# 22.	European Data: https://data.europa.eu/en
+# 23.	Livestock Data for Decisions (LD4D):
 #       https://www.livestockdata.org/type/datasets
 # etc.
 
