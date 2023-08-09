@@ -24,7 +24,8 @@
 # 2.	University of California (UC) Irvine: https://archive.ics.uci.edu/datasets
 # 3.	Kaggle: https://www.kaggle.com/datasets
 # 4.	Data Science Dojo:
-#       https://datasciencedojo.com/blog/datasets-data-science-skills/ or https://code.datasciencedojo.com/datasciencedojo/datasets
+#       https://datasciencedojo.com/blog/datasets-data-science-skills/ or
+#       https://code.datasciencedojo.com/datasciencedojo/datasets
 # 5.	Kenya Open Data: https://kenya.opendataforafrica.org/data/#menu=topic
 # 6.	openAFRICA: https://africaopendata.org/
 # 7.	Datahub.io: https://datahub.io/collections
