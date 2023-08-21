@@ -14,19 +14,19 @@ It is based on the following 9 steps of **Knowledge Discovery in Databases (KDD)
 
 ## Step 1: Problem Definition and Goal Setting
 
-**Problem Definition and Goal Setting:** This involves an understanding of the problem, the requirements of the end-user for the solution to the problem, and the environment in which the KDD process will occur.
+This involves an understanding of the problem, the requirements of the end-user for the solution to the problem, and the environment in which the KDD process will occur.
 
 -   [*BI Project: Section 1, 3, and 14*](https://docs.google.com/document/d/1Ay1VaAjd9JzQJ5JnkPHZLvtDRNAWrc5RYCPo1bvxgBU/edit?usp=sharing)
 
 ## Step 2: Data Selection
 
-**Data Selection:** This involves discovering what data is accessible, selecting the significant data that is accessible, and then integrating all this data into one set (a dataset). It is extremely important to ensure that the data is collected ethically (informed consent), and that the data is not biased (the sample should represent the population). The entire KDD process may be unsuccessful if there are significant attributes/features missing in the dataset. This can be performed by the data engineer.
+This involves discovering what data is accessible, selecting the significant data that is accessible, and then integrating all this data into one set (a dataset). It is extremely important to ensure that the data is collected ethically (informed consent), and that the data is not biased (the sample should represent the population). The entire KDD process may be unsuccessful if there are significant attributes/features missing in the dataset. This can be performed by the data engineer.
 
 -   *Concept: Data Engineering*
 
 ## Step 3: Data Cleansing and Pre-Processing
 
-**Data Cleansing and Pre-Processing:** This involves describing data to better understand it. Through this understanding, outliers and noise can be removed, and missing data can be estimated (data imputation can be performed). For example, this stage can involve the correction of invalid postal codes, or the elimination of records with incorrect phone prefixes, or the removal of currency symbols, e.g., '\$', ¥, '€', etc. This can be performed by the data engineer.
+This involves describing data to better understand it. Through this understanding, outliers and noise can be removed, and missing data can be estimated (data imputation can be performed). For example, this stage can involve the correction of invalid postal codes, or the elimination of records with incorrect phone prefixes, or the removal of currency symbols, e.g., '\$', ¥, '€', etc. This can be performed by the data engineer.
 
 -   [*Lab1-LoadingDatasets.R*](/Lab1-LoadingDatasets.R)
 
@@ -36,19 +36,19 @@ It is based on the following 9 steps of **Knowledge Discovery in Databases (KDD)
 
 ## Step 4: Data Transformation
 
-**Data Transformation:** This involves finding useful features that represent the data according to the goal of addressing the problem defined. In doing so, the structure of the data and the prediction problem is exposed to data mining algorithms. Finding useful attributes/features can also be done through dimensionality reduction (identifying the most significant and uncorrelated attributes). This can be performed by a data analyst.
+This involves finding useful features that represent the data according to the goal of addressing the problem defined. In doing so, the structure of the data and the prediction problem is exposed to data mining algorithms. Finding useful attributes/features can also be done through dimensionality reduction (identifying the most significant and uncorrelated attributes). This can be performed by a data analyst.
 
 -   Lab4-ExposingtheStructureofDatausingDataTransforms.R
 
 ## Step 5: Selection of the Data Mining Task
 
-**Selection of the Data Mining Task:** This involves deciding whether to use data mining to either predict classifications, regressions, associations, or clusters. The decision is based on the goal of the KDD process. Step 5-7 can be performed by a Machine Learning engineer and/or a data analyst.
+This involves deciding whether to use data mining to either predict classifications, regressions, associations, or clusters. The decision is based on the goal of the KDD process. Step 5-7 can be performed by a Machine Learning engineer and/or a data analyst.
 
 -   [*BI Project Section 3*](https://docs.google.com/document/d/1Ay1VaAjd9JzQJ5JnkPHZLvtDRNAWrc5RYCPo1bvxgBU/edit?usp=sharing)
 
 ## Step 6: Selection of the Data Mining Algorithm
 
-**Selection of the Data Mining Algorithm:** Evaluate several standard algorithms on the data and shortlist the top performing algorithms to investigate further
+Evaluate several standard algorithms on the data and shortlist the top performing algorithms to investigate further
 
 -   *Lab5-ControllingComputationalNuancesofAlgorithms.R*
 
@@ -60,7 +60,7 @@ It is based on the following 9 steps of **Knowledge Discovery in Databases (KDD)
 
 ## Step 7: Utilization of the Data Mining Algorithm
 
-**Utilization of the Data Mining Algorithm:** The chosen algorithm is then used to train the model. Knowledge is represented in the form of patterns and rules in a model. Algorithm tuning and ensemble methods are used at this point to get the most out of well performing algorithms.
+The chosen algorithm is then used to train the model. Knowledge is represented in the form of patterns and rules in a model. Algorithm tuning and ensemble methods are used at this point to get the most out of well performing algorithms.
 
 -   *Lab9-AlgorithmParameterTuning.R*
 
