@@ -344,7 +344,7 @@ churn_dateset <- read_csv(
 )
 
 # References ----
-# Refer to the APA 7th edition manual here for rules on citing datasets:
+# Refer to the APA 7th edition manual for rules on how to cite datasets:
 # https://apastyle.apa.org/style-grammar-guidelines/references/examples/data-set-references  # nolint: line_length_linter.
 
 ## Brown, M. (2014). Dow Jones index (Version 1) [Dataset]. University of California, Irvine (UCI) Machine Learning Repository. https://doi.org/10.24432/C5788V # nolint ----
@@ -367,10 +367,10 @@ churn_dateset <- read_csv(
 
 ## Part C ----
 # Create a markdown file called "BIProject.Rmd" and place it inside the folder
-# called "markdown". The markdown should have a code chunk to explain how the
-# dataset has been loaded.
+# called "markdown". The markdown should have a code chunk that explains how
+# the dataset has been loaded.
 
 ## Part D ----
-# Upload *the link* to "BIProject.md" markdown file hosted on Github (do not
-# upload the .Rmd or .md markdown files) through the submission link provided
-# on eLearning.
+# Upload *the link* to "BIProject.md" (not .Rmd) markdown file hosted on Github
+# (do not upload the .Rmd or .md markdown files) through the submission link
+# provided on eLearning.
