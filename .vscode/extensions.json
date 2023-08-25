@@ -4,6 +4,7 @@
         "mechatroner.rainbow-csv",
         "github.vscode-pull-request-github",
         "github.classroom",
-        "grapecity.gc-excelviewer"
+        "grapecity.gc-excelviewer",
+        "streetsidesoftware.code-spell-checker"
     ]
 }
