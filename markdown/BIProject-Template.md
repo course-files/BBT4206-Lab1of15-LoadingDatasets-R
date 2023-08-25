@@ -1,7 +1,7 @@
 Business Intelligence Project
 ================
-Allan Omondi
-2023-11-23
+<Specify your name here>
+<Specify the date when you submitted the lab>
 
 - [Student Details](#student-details)
 - [Setup Chunk](#setup-chunk)
