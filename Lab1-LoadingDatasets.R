@@ -372,5 +372,5 @@ churn_dateset <- read_csv(
 
 ## Part D ----
 # Upload *the link* to "BIProject.md" (not .Rmd) markdown file hosted on Github
-# (do not upload the .Rmd or .md markdown files) through the submission link
-# provided on eLearning.
+# (do not upload the .Rmd or .md markdown files) through the same submission
+# link provided on eLearning.
