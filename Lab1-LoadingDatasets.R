@@ -16,7 +16,7 @@
 # See LICENSE file for licensing information.
 # *****************************************************************************
 
-# 1. Sources of Datasets -----
+# 1. Sources of Datasets ----
 # There are several repositories where you can find datasets (mostly free) for
 # learning and/or to use as part of a project. These include:
 
@@ -84,7 +84,7 @@
 # in the week ending 5/27/2011 every Dow Jones Index stock lost money.
 #
 # Attribute Information
-# quarter:  the yearly quarter (1 = Jan-Mar; 2 = Apr=Jun).
+# quarter:  the yearly quarter (1 = Jan-Mar; 2 = Apr-Jun).
 # stock: the stock symbol (see above)
 # date: the last business day of the work (this is typically a Friday)
 # open: the price of the stock at the beginning of the week
