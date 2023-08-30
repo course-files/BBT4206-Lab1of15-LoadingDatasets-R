@@ -135,7 +135,6 @@
 # Select "Close & Load" and save the file (the first work sheet) as a .CSV file
 # in the following location: "data/transforms/dow_jones_index.csv"
 
-
 ### Code ----
 library(readr)
 stock_ror_dataset <- read_csv(
@@ -246,7 +245,7 @@ defaulter_dataset <-
 
 # 3 Regression Datasets ----
 ## 3.1 DATASET 3: Daily Demand Forecasting Orders Data Set ----
-## Objective ----
+### Objective ----
 #' The dataset was collected during 60 days, this is a real database of a
 #' Brazilian logistics company. The dataset has twelve predictive attributes
 #' and a target that is the total of orders for daily treatment. The database
@@ -270,7 +269,7 @@ defaulter_dataset <-
 #' @attribute Target_(Total_orders) integer
 #' @data
 
-## Sources ----
+### Sources ----
 #### [Primary] Source 1: UCI ----
 # https://archive.ics.uci.edu/ml/datasets/Daily+Demand+Forecasting+Orders
 #### [Secondary] Source 2: Data Science Dojo ----
@@ -290,7 +289,6 @@ demand_forecasting_dataset <-
     ),
     trim_ws = TRUE
   )
-
 
 ## 3.2 DATASET 4: Iranian Churn Dataset ----
 ### Objective ----
