@@ -16,6 +16,22 @@
 # See LICENSE file for licensing information.
 # *****************************************************************************
 
+# Login to GitHub to commit changes and push them to your GitHub account ----
+# Run the following command to login to GitHub using a *personal access token*
+# instead of a password. This is for those using RStudio and are prevented from
+# using a username and password to login.
+install.packages("usethis")
+install.packages("gitcreds")
+
+# The following command opens https://github.com/settings/tokens where you can
+# create a token to use to access the GitHub API from RStudio and other
+# applications.
+usethis::create_github_token()
+
+# The following command then allows you to set the token and connect RStudio to
+# your GitHub account.
+gitcreds::gitcreds_set()
+
 # 1. Sources of Datasets ----
 # There are several repositories where you can find datasets (mostly free) for
 # learning and/or to use as part of a project. These include:
