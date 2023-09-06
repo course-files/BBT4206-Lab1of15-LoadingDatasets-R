@@ -15,7 +15,7 @@ Business Intelligence Project
 
 |                                              |     |
 |----------------------------------------------|-----|
-| **Student ID Number**                        | ….  |
+| **Student ID Number**                        | …   |
 | **Student Name**                             | …   |
 | **BBIT 4.2 Group**                           | …   |
 | **BI Project Group Name/ID (if applicable)** | …   |

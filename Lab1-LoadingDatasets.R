@@ -66,7 +66,6 @@ gitcreds::gitcreds_set()
 #       https://www.livestockdata.org/type/datasets
 # etc.
 
- 
 # 2. Classification Datasets -----
 ## 2.1 DATASET 1: Dow Jones Index Data Set ----
 
@@ -356,7 +355,6 @@ churn_dateset <- read_csv(
                                   "1"))
   )
 )
-
 
 # References ----
 # Refer to the APA 7th edition manual for rules on how to cite datasets:
